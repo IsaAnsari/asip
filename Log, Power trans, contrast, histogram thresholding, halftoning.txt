@@ -1,3 +1,5 @@
+NOTE: Add "image.jpg" at the same place where your .py exist.
+
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
