@@ -1,3 +1,9 @@
+'''
+- Upsampling: Increasing the sampling rate of a signal, effectively adding more samples
+between existing ones.
+- Downsampling: Decreasing the sampling rate, removing samples from the original signal.
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import signal
@@ -26,3 +32,4 @@ plt.title('Downsampled Signal')
 
 plt.tight_layout()
 plt.show()
+
