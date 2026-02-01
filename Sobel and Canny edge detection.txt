@@ -1,4 +1,14 @@
-NOTE: Add "image.jpg" at the same place where your .py exist.
+# NOTE: Add "image.jpg" at the same place where your .py exist.
+
+'''
+1. Sobel Operator:
+The Sobel operator uses two 3×3 convolution masks (horizontal and vertical) to compute
+the gradient magnitude in both x and y directions.
+
+The Canny operator is a multi-stage algorithm that includes:
+o Noise reduction using Gaussian blur
+o Gradient computation
+'''
 
 import cv2
 from matplotlib import pyplot as plt
