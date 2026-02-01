@@ -1,3 +1,8 @@
+'''
+Correlation, specifically cross-correlation, measures the similarity between two signals as a
+function of the time difference (lag) applied to one of them. 
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 
