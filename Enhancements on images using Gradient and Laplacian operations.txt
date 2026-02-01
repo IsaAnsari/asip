@@ -1,3 +1,13 @@
+'''
+Gradient Calculation (Sobel Operator):
+• The Sobel operator is applied in both the X and Y directions to detect edges
+• The gradient magnitude is calculated by combining the Sobel outputs in both directions.
+
+Laplacian Calculation:
+• The Laplacian operator is applied to the image to compute the second derivative,
+  which highlights rapid intensity changes (edges).
+'''
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
