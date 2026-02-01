@@ -1,4 +1,22 @@
-NOTE: Add "image.jpg" at the same place where your .py exist.
+# NOTE: Add "image.jpg" at the same place where your .py exist.
+
+'''
+1. Log Transformation:
+Applies a logarithmic scale to pixel values to expand dark pixels and compress
+bright ones. It is useful for images with large dynamic ranges.
+2. Power-Law (Gamma) Transformation:
+Uses a power function to enhance contrast. For gamma < 1, darker regions are
+emphasized; for gamma > 1, brighter regions are emphasized.
+3. Contrast Adjustment:
+Linearly modifies pixel values using the formula g(x, y) = α * f(x, y) + β, where α
+controls contrast and β controls brightness.
+4. Histogram Equalization:
+Redistributes pixel intensities to enhance contrast, particularly in low-contrast
+images.
+5. Thresholding:
+Converts a grayscale image to a binary image by setting all pixels above a
+threshold to white and the rest to black.
+'''
 
 import cv2
 import numpy as np
