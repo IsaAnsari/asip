@@ -1,4 +1,12 @@
-NOTE: Add "image.jpg" at the same place where your .py exist.
+# NOTE: Add "image.jpg" at the same place where your .py exist.
+
+'''
+Convolution is a fundamental mathematical operation used in signal and image processing to
+modify or extract features from data. 
+
+Template Matching is a technique used to find parts of an image that match a given small sample
+image, called the template.
+'''
 
 import cv2
 import numpy as np
